@@ -34,7 +34,7 @@ function Header({ currentPage, handlePageChange })  {
                     // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                     className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                     >
-                    Blog
+                    Resume
                     </a>
                 </li>
                 <li className="nav-item">
