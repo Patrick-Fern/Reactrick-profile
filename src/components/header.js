@@ -14,7 +14,7 @@ function Header({ currentPage, handlePageChange })  {
                     // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
                     className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
                     >
-                    Home
+                    Projects
                     </a>
                 </li>
                 <li className="nav-item">
